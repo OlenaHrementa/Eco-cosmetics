@@ -1,0 +1,26 @@
+.header {
+  padding-top: 20px;
+
+  @include onIpad {
+    padding-top: 28px;
+  }
+
+  @include onDesktop1280 {
+    padding-top: 40px;
+  }
+  &__top-actions {
+    margin-bottom: 26px;
+
+    @include onIpad {
+      margin-bottom: 36px;
+    }
+
+    @include onDesktop1280 {
+      margin-bottom: 92px;
+    }
+
+    @include onDesktop1440 {
+      margin-bottom: 82px;
+    }
+  }
+}

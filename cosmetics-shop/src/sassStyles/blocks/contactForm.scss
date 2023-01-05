@@ -1,0 +1,49 @@
+.form {
+  margin-bottom: 30px;
+
+  @include onDesktop1280 {
+    margin-bottom: 50px;
+  }
+
+  &-field {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 0 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: $colorGreen;
+    background-color: $colorBackground;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #bdbdbd;
+
+    &::placeholder {
+      color: #828282;
+    }
+
+    &:focus {
+      border: 1px solid transparent;
+      border-bottom: 1px solid $colorGray;
+      outline: none;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include onDesktop1280 {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.from-textarea {
+  height: 40px;
+
+  resize: none;
+}

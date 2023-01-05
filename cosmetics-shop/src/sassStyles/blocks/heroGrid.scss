@@ -1,0 +1,30 @@
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+
+  @include onDesktop1280 {
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+  }
+
+  &--ipad {
+    display: flex;
+
+    @include onDesktop1280 {
+      display: grid;
+    }
+  }
+
+  &__item {
+    @include onDesktop1280 {
+      @for $start from 1 through 12 {
+        @for $end from $start through 12 {
+          &--desktop-#{$start}-#{$end} {
+            grid-column: #{$start} / #{$end + 1};
+          }
+        }
+      }
+    }
+  }
+}

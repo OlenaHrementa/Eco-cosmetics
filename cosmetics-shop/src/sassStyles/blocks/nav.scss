@@ -1,0 +1,46 @@
+.nav {
+  display: none;
+
+  @include onDesktop1280 {
+    display: block;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+    margin: 0 40px 0 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: $colorGreen;
+    text-decoration: none;
+    &:after {
+      content: "";
+      height: 2px;
+      width: 0%;
+      background-color: $colorGreen;
+      display: block;
+      transition: 0.5s ease-in-out;
+    }
+    &:hover {
+      &::after {
+        content: "";
+        height: 2px;
+        width: 100%;
+        background-color: $colorGreen;
+        display: block;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+}
