@@ -69,13 +69,15 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/witch.of.mountain.winds"
                 target="_blank"
+                rel="noreferrer"
                 className="icon icon--facebook"
-              ></a>
+              > </a>
               <a
                 href="https://www.instagram.com/witch_of_mountain_winds/"
                 target="_blank"
+                rel="noreferrer"
                 className="icon icon--instagram"
-              ></a>
+              > </a>
             </div>
           </div>
         </div>

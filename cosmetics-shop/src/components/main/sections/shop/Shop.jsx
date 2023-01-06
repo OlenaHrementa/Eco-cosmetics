@@ -1,11 +1,11 @@
 import React from "react";
-import "../sections/Shop.scss";
-import Button from "../../shared/Button";
-import oilDesktop from "../../../assets/images/shop/hydrophilic-oil-desktop.jpg";
-import oilTablet from "../../../assets/images/shop/hydrophilic-oil-tablet.jpg";
-import oilMobile from "../../../assets/images/shop/hydrophilic-oil-mobile.jpg";
-import ubtainDesktop from "../../../assets/images/shop/ubtain-desktop.jpg";
-import ubtainTablet from "../../../assets/images/shop/ubtain-tablet.jpg";
+import "./Shop.scss";
+import Button from "../../../shared/button/Button";
+import oilDesktop from "../../../../assets/images/shop/hydrophilic-oil-desktop.jpg";
+import oilTablet from "../../../../assets/images/shop/hydrophilic-oil-tablet.jpg";
+import oilMobile from "../../../../assets/images/shop/hydrophilic-oil-mobile.jpg";
+import ubtainDesktop from "../../../../assets/images/shop/ubtain-desktop.jpg";
+import ubtainTablet from "../../../../assets/images/shop/ubtain-tablet.jpg";
 
 const Shop = () => {
   return (

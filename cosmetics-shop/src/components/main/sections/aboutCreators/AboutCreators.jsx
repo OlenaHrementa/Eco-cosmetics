@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutCreators.scss";
-import Button from "../../shared/Button";
-import BirdDesktop from "../../../assets/images/bird-desktop.jpg";
-import BirdTablet from "../../../assets/images/bird-tablet.jpg";
+import Button from "../../../shared/button/Button";
+import BirdDesktop from "../../../../assets/images/bird-desktop.jpg";
+import BirdTablet from "../../../../assets/images/bird-tablet.jpg";
 
 
 const AboutCreators = () => {

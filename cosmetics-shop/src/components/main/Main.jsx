@@ -1,11 +1,11 @@
 import React from "react";
-import Gifts from "./sections/Gifts";
-import AboutBrand from "./sections/AboutBrand";
-import Shop from "./sections/Shop";
-import AboutCreators from "./sections/AboutCreators";
-import PowderSection from "./sections/PowderSection";
-import Benefits from "./sections/Benefits";
-import ContactUs from "./sections/ContactUs";
+import Gifts from "./sections/gifts/Gifts";
+import AboutBrand from "./sections/aboutBrand/AboutBrand";
+import Shop from "./sections/shop/Shop";
+import AboutCreators from "./sections/aboutCreators/AboutCreators";
+import PowderSection from "./sections/powder/PowderSection";
+import Benefits from "./sections/benefits/Benefits";
+import ContactUs from "./sections/contactUs/ContactUs";
 
 const Main = () => {
   return (

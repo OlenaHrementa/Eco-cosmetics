@@ -1,5 +1,5 @@
 import React from "react";
-import "../sections/Gifts.scss";
+import "./Gifts.scss";
 
 const Gifts = () => {
   return (

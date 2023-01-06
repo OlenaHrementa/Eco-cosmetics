@@ -1,8 +1,8 @@
 import React from "react";
 import "./ContactUs.scss";
-import ContactForm from "../../shared/ContactForm";
-import birdDesktop from "../../../assets/images/contact-bird-desktop.jpg";
-import birdTablet from "../../../assets/images/contact-bird-tablet.jpg";
+import ContactForm from "../../../shared/contactForm/ContactForm";
+import birdDesktop from "../../../../assets/images/contact-bird-desktop.jpg";
+import birdTablet from "../../../../assets/images/contact-bird-tablet.jpg";
 
 const ContactUs = () => {
   return (

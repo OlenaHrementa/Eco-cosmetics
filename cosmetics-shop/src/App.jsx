@@ -1,6 +1,6 @@
 import "./App.scss";
 import Header from "./components/header/Header";
-import Description from "./components/main/sections/Description"
+import Description from "./components/main/sections/description/Description"
 import HeroSection from "./components/heroSection/HeroSection";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";

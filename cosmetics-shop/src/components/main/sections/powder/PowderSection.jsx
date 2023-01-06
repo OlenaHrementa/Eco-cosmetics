@@ -1,6 +1,6 @@
 import React from "react";
 import "./PowderSection.scss";
-import Powder from "../../../assets/images/powder.svg";
+import Powder from "../../../../assets/images/powder.svg";
 
 const PowderSection = () => {
   return (

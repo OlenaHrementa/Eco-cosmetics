@@ -1,8 +1,8 @@
 import React from "react";
-import "../sections/AboutBrand.scss";
-import aboutBrandDesktop from "../../../assets/images/about-brand-desktop.jpg";
-import aboutBrandTablet from "../../../assets/images/about-brand-tablet.jpg";
-import aboutBrandAdditional from "../../../assets/images/about-brand-additional-photo.jpg";
+import "./AboutBrand.scss";
+import aboutBrandDesktop from "../../../../assets/images/about-brand-desktop.jpg";
+import aboutBrandTablet from "../../../../assets/images/about-brand-tablet.jpg";
+import aboutBrandAdditional from "../../../../assets/images/about-brand-additional-photo.jpg";
 
 const AboutBrand = () => {
   return (

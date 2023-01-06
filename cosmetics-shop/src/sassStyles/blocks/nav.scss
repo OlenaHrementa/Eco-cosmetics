@@ -19,28 +19,14 @@
   }
 
   &__link {
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
     color: $colorGreen;
     text-decoration: none;
-    &:after {
-      content: "";
-      height: 2px;
-      width: 0%;
-      background-color: $colorGreen;
-      display: block;
-      transition: 0.5s ease-in-out;
-    }
-    &:hover {
-      &::after {
-        content: "";
-        height: 2px;
-        width: 100%;
-        background-color: $colorGreen;
-        display: block;
-        transition: 0.5s ease-in-out;
-      }
-    }
+    border-bottom: 2px solid transparent;
+
+    @include hover(border-color, $colorGreen);
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroSection.scss";
-import Button from "../shared/Button";
+import Button from "../shared/button/Button";
 import candlesDesktop from "../../assets/images/candles-desktop.jpg";
 import candlesTablet from "../../assets/images/candles-tablet.jpg";
 import candlesMobile from "../../assets/images/candles-mobile.jpg";
