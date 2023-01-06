@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/eco-cosmetics/static/css/main.f253316f.css",
-    "main.js": "/eco-cosmetics/static/js/main.b8715ee8.js",
-    "static/js/787.97c55614.chunk.js": "/eco-cosmetics/static/js/787.97c55614.chunk.js",
+    "main.css": "/eco-cosmetics/static/css/main.ff7995f5.css",
+    "main.js": "/eco-cosmetics/static/js/main.3f589fc4.js",
     "static/media/Poppins-Regular.svg": "/eco-cosmetics/static/media/Poppins-Regular.597059755eaddfdc550b.svg",
     "static/media/Poppins-Medium.svg": "/eco-cosmetics/static/media/Poppins-Medium.e60c1ae47591d5737f66.svg",
     "static/media/Poppins-SemiBold.svg": "/eco-cosmetics/static/media/Poppins-SemiBold.279bf4d3a1820c956021.svg",
@@ -41,12 +40,11 @@
     "static/media/cross.svg": "/eco-cosmetics/static/media/cross.9524dedcbbfa1d661f77.svg",
     "static/media/instagram.svg": "/eco-cosmetics/static/media/instagram.8073d30c9d36b00b2f29.svg",
     "static/media/menu.svg": "/eco-cosmetics/static/media/menu.c9917370f41163fe036b.svg",
-    "main.f253316f.css.map": "/eco-cosmetics/static/css/main.f253316f.css.map",
-    "main.b8715ee8.js.map": "/eco-cosmetics/static/js/main.b8715ee8.js.map",
-    "787.97c55614.chunk.js.map": "/eco-cosmetics/static/js/787.97c55614.chunk.js.map"
+    "main.ff7995f5.css.map": "/eco-cosmetics/static/css/main.ff7995f5.css.map",
+    "main.3f589fc4.js.map": "/eco-cosmetics/static/js/main.3f589fc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f253316f.css",
-    "static/js/main.b8715ee8.js"
+    "static/css/main.ff7995f5.css",
+    "static/js/main.3f589fc4.js"
   ]
 }
